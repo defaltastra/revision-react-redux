@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./index.css";
 import App from "./App";
-import { store } from "./app/store"; // ✅ CORRECT
+import { store } from "./movies/app/store"; // ✅ CORRECT
 
 const container = document.getElementById("root");
 const root = createRoot(container);
